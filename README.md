@@ -1,1 +1,1 @@
-mc - ub16
+ssh for ubuntu
