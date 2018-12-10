@@ -8,6 +8,7 @@ RUN apt-get install -y openssh-server
 RUN apt-get install -y mc
 RUN apt-get install -y nano
 RUN apt-get install -y iputils-ping
+RUN apt-get install -y curl
 
 RUN mkdir /var/run/sshd
 
