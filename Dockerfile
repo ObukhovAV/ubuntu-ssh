@@ -7,7 +7,7 @@ RUN apt-get update
 RUN apt-get install -y openssh-server
 RUN apt-get install -y mc
 RUN apt-get install -y nano
-#RUN apt-get install -y nginx
+RUN apt-get install -y iputils-ping
 
 RUN mkdir /var/run/sshd
 
